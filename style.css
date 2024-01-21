@@ -5,7 +5,10 @@
     font-family: sans-serif;
 }
 body{
-  background-color:black;
+  /* background-color:black; */
+  /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
 }
 #required{
   font-size: 18px;
@@ -32,12 +35,12 @@ section>h1{
     height: 38px;
     width: 160px;
     border: none;
+    background-color: white;
 }
 .inp-box:focus{
   border: 1px solid white;
   outline: none;
-  background-color: black;
-  color: white;
+
 }
 #btn{
    height: 38px;

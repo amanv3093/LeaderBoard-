@@ -40,7 +40,6 @@ function sortArray(){
     
     a.forEach((e,index,array)=>{
         console.log(array)
-        
     let box=document.createElement("div");
     box.classList.add("box");
     let ul=document.createElement("ul");
@@ -74,32 +73,32 @@ function sortArray(){
      let first1 = ul.querySelector(".first1");
         let imgElement = document.createElement("img");
         imgElement.classList.add("img1")
-        imgElement.src = "icons8-first-place-ribbon-48.png"; 
+        imgElement.src = "29309.webp"; 
         first1.innerText = "";
         first1.appendChild(imgElement);
         
         
     }
-    if (index === 1) {
-        let first1 = ul.querySelector(".first1");
-           let imgElement = document.createElement("img");
-           imgElement.classList.add("img1")
-           imgElement.src = "icons8-second-place-ribbon-48.png"; 
-           first1.innerText = "";
-           first1.appendChild(imgElement);
+    // if (index === 1) {
+    //     let first1 = ul.querySelector(".first1");
+    //        let imgElement = document.createElement("img");
+    //        imgElement.classList.add("img1")
+    //        imgElement.src = "icons8-second-place-ribbon-48.png"; 
+    //        first1.innerText = "";
+    //        first1.appendChild(imgElement);
           
            
-       }
-       if (index === 2) {
-        let first1 = ul.querySelector(".first1");
-           let imgElement = document.createElement("img");
-           imgElement.classList.add("img1")
-           imgElement.src = "icons8-third-place-ribbon-48.png"; 
-           first1.innerText = "";
-           first1.appendChild(imgElement);
+    //    }
+    //    if (index === 2) {
+    //     let first1 = ul.querySelector(".first1");
+    //        let imgElement = document.createElement("img");
+    //        imgElement.classList.add("img1")
+    //        imgElement.src = "icons8-third-place-ribbon-48.png"; 
+    //        first1.innerText = "";
+    //        first1.appendChild(imgElement);
            
            
-       }
+    //    }
 
     let deleteBtn = ul.querySelector(".del");
     deleteBtn.addEventListener(('click'), () => {
